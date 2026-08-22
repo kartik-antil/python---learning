@@ -1,4 +1,4 @@
-#guide van roesum discover python in 1989
+#guido van rossum discovered python in 1989
 #python is a open source language
 #it provides big library support
 print("hello world")
