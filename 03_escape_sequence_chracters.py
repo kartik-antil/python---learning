@@ -9,3 +9,4 @@ print("hey",8,9,sep="~",end="100")
 print("hey",9,2,sep="~",end="100\n")
 print("kartik")
 
+
