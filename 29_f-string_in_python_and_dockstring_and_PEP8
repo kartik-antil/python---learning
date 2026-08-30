@@ -1,0 +1,5 @@
+#string formatting in python 
+letter="hey my name is {} and I am from {}
+country="india"
+name="kartik"
+print(letter.format(name,country))
