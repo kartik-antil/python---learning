@@ -1,21 +1,23 @@
-#include<stdio.h>
-int main()
-{
-    int marks;
-    printf("enter marks (1-100)=");
-    scanf("%d",&marks);
+#include <stdio.h>
 
-    if(marks>=0 &&  marks<=33){
-    printf("fail hogya ");}
+int main() {
+    int a, b, c;
 
-    else if(marks>33 &&marks<100)
-    printf("pass hogya  ");
+    // User se teen numbers input lena
+    printf("Enter three numbers: ");
+    scanf("%d %d %d", &a, &b, &c);
 
-    else if(marks==100){
-    printf("top kr diya");}
-
-    else  {
-        printf("wrong marks");
+    // && (AND) operator dono conditions true hone par hi run karega
+    if (a >= b && a >= c) {
+        printf("%d is the greatest number.\n", a);
+    } 
+    else if (b >= a && b >= c) {
+        printf("%d is the greatest number.\n", b);
+    } 
+    else {
+        printf("%d is the greatest number.\n", c);
     }
+
     return 0;
 }
+
