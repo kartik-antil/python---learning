@@ -8,7 +8,7 @@ int sum(int n){
     }
 }
 int main(){
-    int n=12345;
+    int n=345629992;
    printf("the sum of digits is %dis %d",n,sum(n));
    return 0;
 }
